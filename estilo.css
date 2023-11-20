@@ -1,0 +1,227 @@
+ body
+ {
+   
+   width: 90%;
+   max-width: 1600px;
+   margin: auto;
+
+}  
+
+*{background: #FCE8F9;}
+ 
+
+	
+
+     #Parra1
+	 { 
+        font-size: 25px;
+        line-height: 1.0;
+		font-family: "Comic Sans MS";
+		
+    }
+	
+	 #Parra2
+	 { 
+        font-size: 20px;
+        line-height: 1.5;
+		font-family: "Comic Sans MS";
+    }
+	
+	 #Parra3
+	 { 
+        color:purple;
+		font-size: 17px;
+        line-height: 1.5;
+		font-family: "Comic Sans MS";
+		
+    }
+	#ti2
+	 { 
+        font-size: 20px;
+        line-height: 1.5;
+		font-family: "Comic Sans MS";
+		
+    }
+      #li1
+	 { 
+        font-size: 15px;
+        line-height: 1.5;
+		font-family: "Comic Sans MS";
+		width: 70%;
+		text-align: justify;
+		
+    }
+	#li2
+	 { 
+        font-size: 15px;
+        line-height: 1.5;
+		font-family: "Comic Sans MS";
+		width: 70%;
+		text-align: justify;
+		
+    }
+	#li3
+	 { 
+        font-size: 15px;
+        line-height: 1.5;
+		font-family: "Comic Sans MS";
+		width: 70%;
+		text-align: justify;
+		
+    }
+	#li4
+	 { 
+        font-size: 15px;
+        line-height: 1.5;
+		font-family: "Comic Sans MS";
+		width: 70%;
+		text-align: justify;
+		
+    }
+	#abajo
+	 { 
+        font-size: 15px;
+        line-height: 1.5;
+		font-family: "Comic Sans MS";
+		
+    }
+	#Parra4
+	 { 
+        font-size: 15px;
+        line-height: 1.5;
+		font-family: "Comic Sans MS";
+		
+    }
+	
+	
+  
+  img:hover {
+      transform: scale(1.2); 
+	  
+    }
+	
+/*ENCABEZADO*/
+header {
+
+  padding: 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo h1 {
+  margin: 0;
+  font-size: 80px;
+  font:Impact;
+  color: #AC16E4;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin-left: 20px;
+}
+
+nav ul li:first-child {
+  margin-left: 0;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+
+}
+
+nav ul li a:hover {
+  color: #ff6600;
+ 
+}
+
+.cart-header {
+  display: flex;
+  align-items: center;
+}
+
+.cart-header h2 {
+  margin-right: 10px;
+}
+
+/* Estilos para la imagen del carrito */
+.cart-header img {
+  width: 30px; /* Ajusta el tamaño de la imagen según lo necesites */
+  height: auto;
+}
+
+
+/*IMAGENESS*/
+
+.product {
+  position: relative;
+  display: inline-block;
+  margin: 20px; 
+  width: 400px;
+}
+
+.product img {
+  width: 100%; 
+  height: auto; 
+}
+
+.add-to-cart {
+  position: absolute;
+  top: 98%;
+  left: 12%;
+  transform: translate(-50%, -50%);
+  background-color: #DC4EC7;
+  padding: 10px;
+  border-radius: 5px;
+  display: none; 
+}
+
+.add-to-cart button {
+  font-size: 15px;
+  color: black;
+  background-color: #E3CDE0;
+  border: none;
+  padding: 16px 16px;
+  cursor: pointer;
+}
+
+/* Al pasar el mouse sobre el producto */
+.product:hover .add-to-cart {
+  display: block; /* para mostrar al pasar el mouse */
+}
+
+
+/*PIE DE PAGINA*/
+footer {
+  background-color: #333;
+  color: black;
+  padding: 5px;
+  
+  justify-content: space-around;
+  align-items: flex-start;
+}
+
+.contact-info,
+.location-info {
+  flex: 1;
+  margin: 20px;
+}
+
+.contact-info h2,
+.location-info h2 {
+  border-bottom: 1px solid purple;
+  padding-bottom: 5px;
+}
+
+.contact-info p,
+.location-info p {
+  margin: 5px 0;
+}
+       
